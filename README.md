@@ -306,7 +306,7 @@
 | Observability<br>Platform Validation | [PED-9](../docs/Observability-Platform-Validation.md)　➔　`Logging` `Metrics` `Tracing` `Alert Manager`<br>How can metrics, logs, traces, and alerts accelerate operational<br>visibility and troubleshooting ?<br><br>•　Accelerating operational visibility and troubleshooting. | `202607` |
 | Vault Secret Management<br>& Distribution | [PED-10](../docs/Vault.md)　➔　`Dynamic Secret` `Encryption` `Zero Trust`<br>How can secrets be managed, distributed, and rotated securely<br>across Kubernetes workloads ? | `202607` |
 | End-to-End<br>DevOps Operating Model | [PED-11](../docs/End-to-End-DevOps-Operating-Model.md)　➔　`PR` `Code Review` `TEST` `STAGE` `PROD`<br>How can development, delivery, operations, and recovery<br>be integrated into a unified platform workflow ? | 2026-06-17 |
-| GitOps Deployment<br>Governance Validation  | [PED-12](../docs/GitOps-Deployment-Governance-Validation.md)　➔　`Drift Detection` `Policy-as-Code` `Traceability`<br>How can GitOps enforce deployment governance, drift control,<br>and operational traceability ?<br><br>•　Enforcing governance and operational traceability. | 2026-06-21 |
+| GitOps Deployment<br>Governance Validation  | [PED-12](../docs/GitOps-Deployment-Governance-Validation.md)　➔　`Drift Detection` `Policy-as-Code`<br>`Traceability`<br>How can GitOps enforce deployment governance, drift control,<br>and operational traceability ?<br><br>•　Enforcing governance and operational traceability. | 2026-06-21 |
 
 </ul>
 </details>
