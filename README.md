@@ -86,6 +86,7 @@
 | Architecture Diagram | `v2.1` | 2026-06-22 |
 | Architecture Diagram | `v2.2` | 2026-06-30 |
 | Architecture Diagram | `v3.0` | `TBD` |
+| `PG-Analytics` | - | 2026-07-04 |
 | `PG-Core` `v1.0`  | Sprint `2026-03` to `2026-07` | 2026-07-XX |
 | `PG-Synapse` `v2.0` | Planning | `TBD` |
 | `PG-Cortex` `v3.0` | Planning | `TBD` |
