@@ -156,7 +156,10 @@
 | DAG | init.py + create_topic.py | `202607` |
 | Python-Tempo Logic | - | `202607` |
 | Grafana Dashboard | `htap_grafana.json` | `202607` |
-| `TDD` *Test-Driven Development*<br>`DTT` *Decision Table Testing* | `Pytest` `Mocking` `Integration Testing` | `TBD` |
+| `TDD` *Test-Driven Development* | 測試驅動開發 `Pytest` `Mocking` | `TBD` |
+| `DTT` *Decision Table Testing* | 判定表測試 `Integration Testing` | `TBD` |
+| `TBD` *Trunk-Based Development* | 主幹開發模式 `Feature Flags` | `TBD` |
+| `BDD` *Behavior-Driven Development* | 行為驅動開發 | `TBD` |
 | `shared` logging | 日誌渲染更新 `rich` | `TBD` |
 | `shared` packages | 腳本頂部路徑初始化封裝 | `TBD` |
 | Create MV | Materialized View | `TBD` |
