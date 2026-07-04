@@ -6,7 +6,8 @@
 [//]: # (![PNG]&#40;./assets/png/roadmap_00.png&#41;)
 [//]: # (![PNG]&#40;./assets/png/roadmap_01.png&#41;)
 [//]: # (![PNG]&#40;./assets/png/roadmap_02.png&#41;)
-![PNG](./assets/png/roadmap_03.png)
+[//]: # (![PNG]&#40;./assets/png/roadmap_03.png&#41;)
+![PNG](./assets/png/roadmap_04.png)
 
 <br>
 
@@ -85,7 +86,7 @@
 | Architecture Diagram | `v2.0` | 2026-06-14 |
 | Architecture Diagram | `v2.1` | 2026-06-22 |
 | Architecture Diagram | `v2.2` | 2026-06-30 |
-| Architecture Diagram | `v3.0` | `TBD` |
+| Architecture Diagram | `v3.0` | 2026-07-04 |
 | `PG-Analytics` | - | 2026-07-04 |
 | `PG-Core` `v1.0`  | Sprint `2026-03` to `2026-07` | 2026-07-XX |
 | `PG-Synapse` `v2.0` | Planning | `TBD` |
