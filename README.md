@@ -880,7 +880,7 @@ gantt
     OLTP-OLAP Consolidation Strategy            :done, a1, 2026-03, 1M
 
     section Phase 2
-    Technology Exploration                      :done, a2, 2026-03, 2M
+    Technology Exploration                      :done, a2, 2026-03, 4M
 
     section Phase 3
     Construction Logic & Standardization        :done, a3, 2026-03, 2M
