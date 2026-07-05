@@ -898,8 +898,4 @@ gantt
     PG Synapse v2.0                             :crit, a8, 2026-08, 1M
 ```
 
-> ##### *•　Self-built platform engineering environment focused on infrastructure automation, Kubernetes operations, GitOps delivery, observability, and reliability engineering.*
->
-> ##### *•　The project evolved from an OLTP/OLAP data platform initiative into a platform engineering practice emphasizing automation, governance, recovery, and operational standardization.*
-
 <br><br><br>
