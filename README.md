@@ -112,10 +112,10 @@
 | Python-Tempo Logic | `observational_simulation` | 2026-07-05 |
 | Grafana Dashboard | `observability.json` | 2026-07-05 |
 | DAG | `init.py` + `create_topic.py` | `TBD` |
-| `TDD` *Test-Driven Development* | 測試驅動開發 `Pytest` `Mocking` | `TBD` |
-| `DTT` *Decision Table Testing* | 判定表測試 `Integration Testing` | `TBD` |
-| `TBD` *Trunk-Based Development* | 主幹開發模式 `Feature Flags` | `TBD` |
-| `BDD` *Behavior-Driven Development* | 行為驅動開發 | `TBD` |
+| `TDD` | *Test-Driven Development*<br>測試驅動開發 `Pytest` `Mocking` | `TBD` |
+| `DTT` | *Decision Table Testing*<br>判定表測試 `Integration Testing` | `TBD` |
+| `TBD` | *Trunk-Based Development*<br>主幹開發模式 `Feature Flags` | `TBD` |
+| `BDD` | *Behavior-Driven Development*<br>行為驅動開發 | `TBD` |
 | `shared` logging | 日誌渲染更新 `rich` | `TBD` |
 | `shared` packages | 腳本頂部路徑初始化封裝 | `TBD` |
 | Create MV | Materialized View | `TBD` |
