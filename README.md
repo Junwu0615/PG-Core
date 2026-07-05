@@ -1,7 +1,7 @@
 <a href='https://github.com/Junwu0615/Platform Genesis'><img alt='GitHub Views' src='https://views.whatilearened.today/views/github/Junwu0615/Platform Genesis.svg'>
 [![Back to HomePage](https://img.shields.io/badge/%F0%9F%8C%90_Back_to-HomePage-blue?style=flat-square)](https://github.com/Junwu0615/Platform-Genesis)
 
-## *⭐ PG-Core ⭐*
+## *⭐ Platform Genesis Core ( v1.0 ) ⭐*
 
 [//]: # (![PNG]&#40;./assets/png/roadmap_00.png&#41;)
 [//]: # (![PNG]&#40;./assets/png/roadmap_01.png&#41;)
@@ -11,7 +11,7 @@
 
 <br>
 
-### *A.　PG Structure*
+### *A.　PG Core Structure*
 |*Project Name*|*Responsibilities*|*Tech Stack*|
 |--:|:--|:--|
 | [Platform Genesis](https://github.com/Junwu0615/Platform-Genesis) | **Homepage :**<br>Construction Records & Quantitative Testing | - |
@@ -895,7 +895,7 @@ gantt
     Resume & Job Search                         :milestone, a7, 2026-07, 1d
 
     section Future
-    PG Synapse                                  :crit, a8, 2026-08, 1M
+    PG Synapse v2.0                             :crit, a8, 2026-08, 1M
 ```
 
 > ##### *•　Self-built platform engineering environment focused on infrastructure automation, Kubernetes operations, GitOps delivery, observability, and reliability engineering.*
