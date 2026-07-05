@@ -13,7 +13,7 @@
 
 ### *A.　PG Core Structure*
 |*Project Name*|*Responsibilities*|*Tech Stack*|
-|--:|:--|:--|
+|:--|:--|:--|
 | [Platform Genesis](https://github.com/Junwu0615/Platform-Genesis) | **Homepage :**<br>Construction Records & Quantitative Testing | - |
 | [PG-Infrastructure](https://github.com/Junwu0615/PG-Infrastructure) | **IaC & Automation :**<br>Orchestrates environment lifecycles via<br>Terraform, Ansible, and Makefiles. | `GKE` `Kubernetes` `Docker`<br>`Terraform` `Ansible` `Makefile` |
 | [PG-APP-Core](https://github.com/Junwu0615/PG-APP-Core) | **Business & Stream Logic :**<br>Core engine for multi-version factory simulations,<br>stream processing, and data infrastructure optimization. | `PG-Shared-Lib` `Python` |
