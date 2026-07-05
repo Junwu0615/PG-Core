@@ -873,8 +873,8 @@ tree -I 'venv|.git|__pycache__|docs|logs|assets|kafka_data|charts'
 gantt
     dateFormat YYYY-MM
 
-    section PG 1.0
-    Platform Genesis Core                                :crit, a0, 2026-03, 5M
+    section Current Work
+    Platform Genesis Core ( PG 1.0 )            :crit, a0, 2026-03, 5M
     
     section Phase 1
     OLTP-OLAP Consolidation Strategy            :done, a1, 2026-03, 1M
@@ -897,8 +897,8 @@ gantt
     section Phase 7
     Resume & Job Search                         :milestone, a7, 2026-07, 1d
 
-    section PG 2.0<br>( Future )
-    Platform Genesis Synapse                             :crit, a8, 2026-08, 1M
+    section Future Work
+    Platform Genesis Synapse ( PG 2.0 )         :crit, a8, 2026-08, 1M
 ```
 
 <br><br><br>
