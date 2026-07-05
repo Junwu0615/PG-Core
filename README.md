@@ -60,7 +60,7 @@
 
 |**Item**|**Description**|**Time**|
 |--:|:--|:--:|
-| Create OLTP DDL | 3NF [ 6 ] | 2026-03-21 |
+| Create OLTP DDL | 3NF `6` | 2026-03-21 |
 | Script | delete_data.py | 2026-03-24 |
 | Script | drop_table.py | 2026-03-24 |
 | Script | factory_config.yaml | 2026-03-24 |
@@ -73,7 +73,7 @@
 | execute ➔ execute_batch | batch sending + batch submission :<br>不適用於目前模擬方式 | X |
 | Adjusting Contextual | insert machine status :<br>machine_status_logs | 2026-03-30 |
 | Increase Data Volume | - | 2026-03-30 |
-| Create OLAP DDL | Star Schema [ 5 ] | 2026-04-06 |
+| Create OLAP DDL | Star Schema `5` | 2026-04-06 |
 | Auto Partition | `dags/sql/auto_partition/*` | 2026-04-06 |
 | OLTP to OLAP | `dags/sql/*` | 2026-04-06 |
 | DAG | Build Coding Style | 2026-04-06 |
@@ -108,9 +108,9 @@
 | lint `CI` | Syntax Checking `black` `flake8` | 2026-05-18 |
 | test `CI` | common tests scripts | 2026-05-18 |
 | build `CI` | - | 2026-05-19 |
-| deploy `CI` | - | 2026-05-20 |
+| deploy `CD` | - | 2026-05-20 |
 | Python-Tempo Logic | `observational_simulation` | 2026-07-05 |
-| Grafana Dashboard | `observability.json` | 2026-07-05 |
+| Grafana Dashboard | `templates/grafana/observability.json` | 2026-07-05 |
 | DAG | `init.py` + `create_topic.py` | `PG-Synapse` `v2.0` |
 | `TDD` | *Test-Driven Development*<br>測試驅動開發 `Pytest` `Mocking` | `PG-Synapse` `v2.0` |
 | `DTT` | *Decision Table Testing*<br>判定表測試 `Integration Testing` | `PG-Synapse` `v2.0` |
@@ -120,7 +120,7 @@
 | `shared` packages | 腳本頂部路徑初始化封裝 | `PG-Synapse` `v2.0` |
 | Create MV | Materialized View | `PG-Synapse` `v2.0` |
 | Analytical Queries | - | `PG-Synapse` `v2.0` |
-| Grafana Dashboard | `htap.json` | `PG-Synapse` `v2.0` |
+| Grafana Dashboard | `templates/grafana/htap.json` | `PG-Synapse` `v2.0` |
 | Security Message :<br>`Message Queue Layer` | Encryption ( `kafka` + `mqtt` ) | `TBD` |
 | Security Message :<br>`Software Layer` | Asymmetric encryption | `TBD` |
 
@@ -213,7 +213,7 @@
 | Kubernetes | 簡化 kubectl 指令 | 2026-05-12 |
 | Kubernetes | `k9s` | 2026-05-12 |
 | CI/CD | Git-Runner | 2026-05-19 |
-| CI/CD | 採用 `tar` 流處理對 Airflow 容器<br>以兩側`記憶體對接灌入達成熱更新` | 2026-05-20 |
+| CD | 採用 `tar` 流處理對 Airflow 容器<br>以兩側`記憶體對接灌入達成熱更新` | 2026-05-20 |
 | Kubernetes | Win ➔ `Portproxy` ➔ WSL2 | 2026-05-25 |
 | Kubernetes | `ingress-nginx` | 2026-05-25 |
 | Kubernetes | `OOM Kill` | 2026-05-25 |
