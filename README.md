@@ -26,50 +26,6 @@
 ### *B.　Project Progress*
 
 <details>
-<summary><b><i>　b.1.　Simple </i></b></summary>
-<ul>
-
-|**Item**|**Description**|**Time**|
-|--:|:--|:--:|
-| Create Project | - | 2026-03-20 |
-| Add `PostgreSQL` | - | 2026-03-20 |
-| Add `Airflow` | for `OLAP` | 2026-03-21 |
-| 1. PED | DB Role-Based Access Control | 2026-04-01 |
-| 2. PED | `Docker Desktop` vs. `WSL2` | 2026-04-04 |
-| Add `Monitoring` | - | 2026-04-04 |
-| Terraform | Modularization | 2026-04-20 |
-| Ansible | Modularization | 2026-04-20 |
-| Add `IoT Platform` | `MQTT Broker` + `Apache Kafka` | 2026-04-25 |
-| Kubernetes | Beginner : `Minikube` | 2026-05-09 |
-| Kubernetes | Advanced : `K3d` | 2026-05-10 |
-| Kubernetes | Advanced : `K3s` + `VMware` | 2026-05-10 |
-| Build `Hierarchical`<br>`Log Management` | `Loki` + `ELK` | 2026-05-14 |
-| Build `GitOps` | `GitLab CI` + `ArgoCD` | 2026-06-05 |
-| 7. PED | Deployment Delivery Baseline | 2026-06-13 |
-| 8. PED |  Kubernetes Resiliency & Availability Validation | 2026-06-16 |
-| 11. PED | End-to-End<br>DevOps Operating Model | 2026-06-17 |
-| 12. PED | GitOps Deployment Governance Validation | 2026-06-21|
-| Add `HashiCorp Vault` | Enterprise Key Management System | `202607` |
-| 10. PED | Vault Secret<br>Management & Distribution | `202607` |
-| 9. PED | Observability Platform Validation | `202607` |
-| Build `Lakehouse` | - | `TBD` |
-| 5. PED | Evolution of Core Data Architecture Business :<br>`Direct Read` vs. `MV` vs. `CDC` | `TBD` |
-| 4. PED | Query Efficiency Optimization<br>`Before` vs. `After` | `TBD` |
-| 6. PED | Application Workload Performance Analysis | `TBD` |
-| 3. PED | OLTP-OLAP Consolidation Strategy | `TBD` |
-| Kubernetes | Bottom Layer : `Kubeadm` + `VMware` | `TBD` |
-| Kubernetes | Public Cloud : `GKE` | `TBD` |
-
-</ul>
-</details>
-
-<details open>
-<summary><b><i>　b.2.　Details </i></b></summary>
-<ul>
-
-<br>
-
-<details>
 <summary><b><i>　b.2.1　Project Journey </i></b></summary>
 <ul>
 
@@ -153,9 +109,9 @@
 | test `CI` | common tests scripts | 2026-05-18 |
 | build `CI` | - | 2026-05-19 |
 | deploy `CI` | - | 2026-05-20 |
-| DAG | init.py + create_topic.py | `202607` |
-| Python-Tempo Logic | - | `202607` |
-| Grafana Dashboard | `htap_grafana.json` | `202607` |
+| Python-Tempo Logic | `observational_simulation` | 2026-07-05 |
+| Grafana Dashboard | `observability.json` | 2026-07-05 |
+| DAG | `init.py` + `create_topic.py` | `TBD` |
 | `TDD` *Test-Driven Development* | 測試驅動開發 `Pytest` `Mocking` | `TBD` |
 | `DTT` *Decision Table Testing* | 判定表測試 `Integration Testing` | `TBD` |
 | `TBD` *Trunk-Based Development* | 主幹開發模式 `Feature Flags` | `TBD` |
@@ -164,6 +120,7 @@
 | `shared` packages | 腳本頂部路徑初始化封裝 | `TBD` |
 | Create MV | Materialized View | `TBD` |
 | Analytical Queries | - | `TBD` |
+| Grafana Dashboard | `htap.json` | `TBD` |
 | Security Message :<br>`Message Queue Layer` | Encryption ( `kafka` + `mqtt` ) | `TBD` |
 | Security Message :<br>`Software Layer` | Asymmetric encryption | `TBD` |
 
@@ -244,35 +201,35 @@
 | Terraform | Declaration Config : `Docker Provider` | 2026-04-19 |
 | Terraform | Config Transfer : `docker-compose` | 2026-04-19 |
 | Ansible | node `init` & `config` | 2026-04-19 |
-| Terraform vs. Compose | Experience :<br>`狀態管理差異性 ; 復原配置崩潰 ; 提高 HA` | 2026-04-19 |
-| Terraform & Ansible | Experience :<br>`Ansible 如何補足 Terraform 的不足` | 2026-04-19 |
-| ELK | Experience : `ELK` | 2026-05-05 |
-| Kubernetes | Experience :<br>`Pod` `Node` `Helm` `Kubectl` `Deployment`<br>`Service` `Ingress` `Secret` `ConfigMap`<br>`NameSpaces` `PVC` `SVC` ... | 2026-05-09 |
-| Kubernetes | Experience : MiniKube | 2026-05-09 |
-| Kubernetes | Experience : Ansible 初始化節點 | 2026-05-10 |
-| Kubernetes | Experience : K3d | 2026-05-10 |
-| VM | Experience : Manual Create Oracle VM | 2026-05-10 |
-| VM | Experience : 以 Ping 自動喚醒 VM 防止深度睡眠 | X |
-| Kubernetes | Experience : 簡化 kubectl 指令 | 2026-05-12 |
-| Kubernetes | Experience : `k9s` | 2026-05-12 |
-| CI/CD | Experience : Git-Runner | 2026-05-19 |
+| Terraform vs. Compose | `狀態管理差異性 ; 復原配置崩潰 ; 提高 HA` | 2026-04-19 |
+| Terraform & Ansible | `Ansible 如何補足 Terraform 的不足` | 2026-04-19 |
+| ELK | Build : `ELK` | 2026-05-05 |
+| Kubernetes | `Pod` `Node` `Helm` `Kubectl` `Deployment`<br>`Service` `Ingress` `Secret` `ConfigMap`<br>`NameSpaces` `PVC` `SVC` ... | 2026-05-09 |
+| Kubernetes | MiniKube | 2026-05-09 |
+| Kubernetes | Ansible 初始化節點 | 2026-05-10 |
+| Kubernetes | K3d | 2026-05-10 |
+| VM | Manual Create Oracle VM | 2026-05-10 |
+| VM | 以 Ping 自動喚醒 VM 防止深度睡眠 | X |
+| Kubernetes | 簡化 kubectl 指令 | 2026-05-12 |
+| Kubernetes | `k9s` | 2026-05-12 |
+| CI/CD | Git-Runner | 2026-05-19 |
 | CI/CD | 採用 `tar` 流處理對 Airflow 容器<br>以兩側`記憶體對接灌入達成熱更新` | 2026-05-20 |
-| Kubernetes | Experience :<br>Win ➔ `Portproxy` ➔ WSL2 | 2026-05-25 |
-| Kubernetes | Experience : `ingress-nginx` | 2026-05-25 |
-| Kubernetes | Experience : `OOM Kill` | 2026-05-25 |
+| Kubernetes | Win ➔ `Portproxy` ➔ WSL2 | 2026-05-25 |
+| Kubernetes | `ingress-nginx` | 2026-05-25 |
+| Kubernetes | `OOM Kill` | 2026-05-25 |
 | GitOps | update tree `App-of-Apps` | 2026-05-28 |
-| GitOps | Experience : `Layered GitOps` | 2026-05-29 |
+| GitOps | `Layered GitOps` | 2026-05-29 |
 | GitOps | Build : `Observability` `Grafana` | 2026-05-30 |
 | GitOps | Build : `Observability` `Prometheus` | 2026-05-30 |
 | GitOps | Build : `Observability` `Prometheus Stack` | 2026-05-30 |
 | GitOps | Build : `Observability` `Promtail` | 2026-05-31 |
 | Helm Chart | `Helm Values 渲染大坑` ➔ 退至穩定版 | 2026-05-31 |
 | GitOps | Build : `Observability` `Loki` | 2026-05-31 |
-| Kubernetes | Experience : `Fluent Bit ( DaemonSet )` | 2026-05-31 |
+| Kubernetes | `Fluent Bit ( DaemonSet )` | 2026-05-31 |
 | GitOps | Build : `Observability` `Tempo` | 2026-06-01 |
 | Helm Chart | `values 渲染大法` | 2026-06-03 |
 | GitOps | Build : `Databases` `Postgresql` | 2026-06-03 |
-| GitOps | Experience : `ApplicationSet` | 2026-06-05 |
+| GitOps | `ApplicationSet` | 2026-06-05 |
 | GitOps | update tree `Automated Multi-Tenant`<br>`Environment Provisioning` | 2026-06-05 |
 | GitOps | Ingress-Nginx `切換 Namespace 環境坑` | 2026-06-06 |
 | Kubernetes | 親和/反親合標籤設置 | 2026-06-06 |
@@ -282,11 +239,11 @@
 | GitOps | Build : `PG-Apps` `cp` | 2026-06-10 |
 | GitOps | Build : `PG-Apps` `inst` | 2026-06-10 |
 | GitOps | Build : `Storage` `nfs` | 2026-06-13 |
-| Kubernetes | Experience : NFS 儲存機制 ( SQLite ) | 2026-06-13 |
-| Kubernetes | Experience : `HPA 擴展/縮容` | 2026-06-15 |
-| GitOps | Experience : `無限套娃動態死鎖` | 2026-06-15 |
-| Kubernetes | Experience : Master Control Plane<br>`dqlite ( Distributed SQLite / Raft 共識協定 )` | 2026-06-16 |
-| Kubernetes + VM | Experience : Master Control Plane<br>`控制面組件租約選舉 ( Lease Re-election )` | 2026-06-17 |
+| Kubernetes | NFS 儲存機制 ( SQLite ) | 2026-06-13 |
+| Kubernetes | `HPA 擴展/縮容` | 2026-06-15 |
+| GitOps | `無限套娃動態死鎖` | 2026-06-15 |
+| Kubernetes | Master Control Plane<br>`dqlite ( Distributed SQLite / Raft 共識協定 )` | 2026-06-16 |
+| Kubernetes + VM | Master Control Plane<br>`控制面組件租約選舉 ( Lease Re-election )` | 2026-06-17 |
 | GitOps | Build : `Security` `Vault` | `202607` |
 | GitOps | Maintain 2 repo ( `CI` + `CD` ) | `TBD` |
 
@@ -307,15 +264,11 @@
 | Evolution of Core<br>Data Architecture | [PED-5](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Evolution-of-Core-Data-Architecture.md)　➔　`Decoupling` `Scalability` `Consistency`<br>How should data access architecture evolve as<br>business scale and complexity increase ?<br><br>•　Direct Read, MV, and CDC evolution strategies. | `TBD` |
 | Application Workload<br>Performance Analysis | [PED-6](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Application-Workload-Performance-Analysis.md)　➔　`Resource Quota` `Throughput` `Saturation`<br>How can observability data reveal performance<br>bottlenecks and capacity limits ? | `TBD` |
 | Deployment<br>Delivery Baseline | [PED-7](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Deployment-Delivery-Baseline.md)　➔　`GitOps` `App-of-Apps` `Idempotency`<br>How does GitOps improve deployment efficiency and<br>operational consistency ? | 2026-06-13 |
-| Kubernetes Resiliency<br>& Availability Validation |  [PED-8](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/K8s-Resiliency-Availability-Validation.md)　➔　`Fault Injection` `Control-Plane`<br>`Self-Healing`<br>How resilient is Kubernetes under node, workload,<br>network, and control-plane failures ? | 2026-06-16 |
+| Kubernetes Resiliency<br>& Availability Validation | [PED-8](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/K8s-Resiliency-Availability-Validation.md)　➔　`Fault Injection` `Control-Plane`<br>`Self-Healing`<br>How resilient is Kubernetes under node, workload,<br>network, and control-plane failures ? | 2026-06-16 |
 | Observability<br>Platform Validation | [PED-9](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Observability-Platform-Validation.md)　➔　`Logging` `Metrics` `Tracing` `Alert Manager`<br>How can metrics, logs, traces, and alerts accelerate<br>operational visibility and troubleshooting ?<br><br>•　Accelerating operational visibility and troubleshooting. | `202607` |
 | Vault Secret Management<br>& Distribution | [PED-10](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Vault.md)　➔　`Dynamic Secret` `Encryption` `Zero Trust`<br>How can secrets be managed, distributed, and rotated<br>securely across Kubernetes workloads ? | `202607` |
 | End-to-End<br>DevOps Operating Model | [PED-11](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/End-to-End-DevOps-Operating-Model.md)　➔　`PR` `Code Review` `TEST` `STAGE` `PROD`<br>How can development, delivery, operations, and recovery<br>be integrated into a unified platform workflow ? | 2026-06-17 |
 | GitOps Deployment<br>Governance Validation  | [PED-12](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/GitOps-Deployment-Governance-Validation.md)　➔　`Drift Detection` `Policy-as-Code`<br>`Traceability`<br>How can GitOps enforce deployment governance,<br>drift control, and operational traceability ?<br><br>•　Enforcing governance and operational traceability. | 2026-06-21 |
-
-</ul>
-</details>
-
 
 </ul>
 </details>
