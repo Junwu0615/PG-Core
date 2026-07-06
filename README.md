@@ -42,9 +42,9 @@
 | _**[Architecture Diagram v3.1](./assets/png/Architecture-Diagram-v3.1.png)**_ | - | 2026-07-06 |
 | _**PG-Analytics**_ | - | 2026-07-04 |
 | _**PG-Core v1.0**_  | _Sprint **2026-03** to **2026-07**_ | 2026-07-XX |
-| _**PG-Synapse v2.0**_ | Planning | _**Future Work**_ |
-| _**PG-Cortex v3.0**_ | Planning | _**Future Work**_ |
-| _**PG-Sentinel v4.0**_ | Planning | _**Future Work**_ |
+| _**PG-Synapse v2.0**_ | _**Planning**_ | _**Future Work**_ |
+| _**PG-Cortex v3.0**_ | _**Planning**_ | _**Future Work**_ |
+| _**PG-Sentinel v4.0**_ | _**Planning**_ | _**Future Work**_ |
 | _**Pause**_ | _After **2026-07**_ | 2026-07-XX |
 
 </ul>
@@ -254,18 +254,18 @@
 
 |**Item**|**Description**|**Time**|
 |--:|:--|:--:|
-| DB Role-Based<br>Access Control | [PED-1](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/DB-RBAC.md)　➔　`RBAC` `IAM` `Least Privilege`<br>How can database access be governed securely across<br>teams and environments ? | 2026-04-01 |
-| Database<br>Environment Benchmark | [PED-2](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Database-Environment-Benchmark.md)　➔　`Docker Desktop` `WSL2` `Windows` `Linux`<br>How does the runtime environment impact database<br>performance and resource efficiency ? | 2026-04-04 |
-| OLTP-OLAP<br>Consolidation Strategy | [PED-3](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/OLTP-OLAP-Consolidation-Strategy.md)　➔　`HTAP` `CDC` `Schema Sync`<br>How can analytical workloads be consolidated<br>while minimizing infrastructure cost ? | _**PG-Synapse v2.0**_ |
-| Database Query<br>Performance Optimization | [PED-4](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Database-Query-Performance-Optimization.md)　➔　`Execution Plan` `Index Strategy` `Latency`<br>How much performance improvement can be<br>achieved through query optimization ? | _**PG-Synapse v2.0**_ |
-| Evolution of Core<br>Data Architecture | [PED-5](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Evolution-of-Core-Data-Architecture.md)　➔　`Decoupling` `Scalability` `Consistency`<br>How should data access architecture evolve as<br>business scale and complexity increase ?<br><br>•　Direct Read, MV, and CDC evolution strategies. | _**PG-Synapse v2.0**_ |
-| Application Workload<br>Performance Analysis | [PED-6](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Application-Workload-Performance-Analysis.md)　➔　`Resource Quota` `Throughput` `Saturation`<br>How can observability data reveal performance<br>bottlenecks and capacity limits ? | _**PG-Synapse v2.0**_ |
-| Deployment<br>Delivery Baseline | [PED-7](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Deployment-Delivery-Baseline.md)　➔　`GitOps` `App-of-Apps` `Idempotency`<br>How does GitOps improve deployment efficiency and<br>operational consistency ? | 2026-06-13 |
-| Kubernetes Resiliency<br>& Availability Validation | [PED-8](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/K8s-Resiliency-Availability-Validation.md)　➔　`Fault Injection` `Control-Plane`<br>`Self-Healing`<br>How resilient is Kubernetes under node, workload,<br>network, and control-plane failures ? | 2026-06-16 |
-| Observability<br>Platform Validation | [PED-9](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Observability-Platform-Validation.md)　➔　`Logging` `Metrics` `Tracing` `Alert Manager`<br>How can metrics, logs, traces, and alerts accelerate<br>operational visibility and troubleshooting ?<br><br>•　Accelerating operational visibility and troubleshooting. | `202607` |
-| Vault Secret Management<br>& Distribution | [PED-10](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Vault.md)　➔　`Dynamic Secret` `Encryption` `Zero Trust`<br>How can secrets be managed, distributed, and rotated<br>securely across Kubernetes workloads ? | `202607` |
-| End-to-End<br>DevOps Operating Model | [PED-11](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/End-to-End-DevOps-Operating-Model.md)　➔　`PR` `Code Review` `TEST` `STAGE` `PROD`<br>How can development, delivery, operations, and recovery<br>be integrated into a unified platform workflow ? | 2026-06-17 |
-| GitOps Deployment<br>Governance Validation  | [PED-12](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/GitOps-Deployment-Governance-Validation.md)　➔　`Drift Detection` `Policy-as-Code`<br>`Traceability`<br>How can GitOps enforce deployment governance,<br>drift control, and operational traceability ?<br><br>•　Enforcing governance and operational traceability. | 2026-06-21 |
+| _DB Role-Based<br>Access Control_ | _**[PED-1](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/DB-RBAC.md)**_　➔　`RBAC` `IAM` `Least Privilege`<br>_How can database access be governed securely across<br>teams and environments ?_ | 2026-04-01 |
+| _Database<br>Environment Benchmark_ | _**[PED-2](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Database-Environment-Benchmark.md)**_　➔　`Docker Desktop` `WSL2` `Windows` `Linux`<br>_How does the runtime environment impact database<br>performance and resource efficiency ?_ | 2026-04-04 |
+| _OLTP-OLAP<br>Consolidation Strategy_ | _**[PED-3](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/OLTP-OLAP-Consolidation-Strategy.md)**_　➔　`HTAP` `CDC` `Schema Sync`<br>_How can analytical workloads be consolidated<br>while minimizing infrastructure cost ?_ | _**PG-Synapse v2.0**_ |
+| _Database Query<br>Performance Optimization_ | _**[PED-4](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Database-Query-Performance-Optimization.md)**_　➔　`Execution Plan` `Index Strategy` `Latency`<br>_How much performance improvement can be<br>achieved through query optimization ?_ | _**PG-Synapse v2.0**_ |
+| _Evolution of Core<br>Data Architecture_ | _**[PED-5](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Evolution-of-Core-Data-Architecture.md)**_　➔　`Decoupling` `Scalability` `Consistency`<br>_How should data access architecture evolve as<br>business scale and complexity increase ?<br><br>•　Direct Read, MV, and CDC evolution strategies._ | _**PG-Synapse v2.0**_ |
+| _Application Workload<br>Performance Analysis_ | _**[PED-6](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Application-Workload-Performance-Analysis.md)**_　➔　`Resource Quota` `Throughput` `Saturation`<br>_How can observability data reveal performance<br>bottlenecks and capacity limits ?_ | _**PG-Synapse v2.0**_ |
+| _Deployment<br>Delivery Baseline_ | _**[PED-7](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Deployment-Delivery-Baseline.md)**_　➔　`GitOps` `App-of-Apps` `Idempotency`<br>_How does GitOps improve deployment efficiency and<br>operational consistency ?_ | 2026-06-13 |
+| _Kubernetes Resiliency<br>& Availability Validation_ | _**[PED-8](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/K8s-Resiliency-Availability-Validation.md)**_　➔　`Fault Injection` `Control-Plane`<br>`Self-Healing`<br>_How resilient is Kubernetes under node, workload,<br>network, and control-plane failures ?_ | 2026-06-16 |
+| _Observability<br>Platform Validation_ | _**[PED-9](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Observability-Platform-Validation.md)**_　➔　`Logging` `Metrics` `Tracing` `Alert Manager`<br>_How can metrics, logs, traces, and alerts accelerate<br>operational visibility and troubleshooting ?<br><br>•　Accelerating operational visibility and troubleshooting._ | `202607` |
+| _Vault Secret Management<br>& Distribution_ | _**[PED-10](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Vault.md)**_　➔　`Dynamic Secret` `Encryption` `Zero Trust`<br>_How can secrets be managed, distributed, and rotated<br>securely across Kubernetes workloads ?_ | `202607` |
+| _End-to-End<br>DevOps Operating Model_ | _**[PED-11](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/End-to-End-DevOps-Operating-Model.md)**_　➔　`PR` `Code Review` `TEST` `STAGE` `PROD`<br>_How can development, delivery, operations, and recovery<br>be integrated into a unified platform workflow ?_ | 2026-06-17 |
+| _GitOps Deployment<br>Governance Validation_  | _**[PED-12](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/GitOps-Deployment-Governance-Validation.md)**_　➔　`Drift Detection` `Policy-as-Code`<br>`Traceability`<br>_How can GitOps enforce deployment governance,<br>drift control, and operational traceability ?<br><br>•　Enforcing governance and operational traceability._ | 2026-06-21 |
 
 </ul>
 </details>
