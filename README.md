@@ -43,7 +43,7 @@
 | _**PG-Analytics**_ | - | 2026-07-04 |
 | _**PG-Core v1.0**_  | _Sprint **2026-03** to **2026-07**_ | 2026-07-XX |
 | _**PG-Synapse v2.0**_ | Planning | _**Future Work**_ |
-| _**PG-Cortex v3.0_** | Planning | _**Future Work**_ |
+| _**PG-Cortex v3.0**_ | Planning | _**Future Work**_ |
 | _**PG-Sentinel v4.0**_ | Planning | _**Future Work**_ |
 | _**Pause**_ | _After **2026-07**_ | 2026-07-XX |
 
@@ -871,7 +871,7 @@ gantt
     dateFormat YYYY-MM
 
     section Current Work
-    PG Core ( PG 1.0 )                          :crit, a0, 2026-03, 5M
+    PG Core ( v1.0 )                            :crit, a0, 2026-03, 5M
     
     section Phase 1
     OLTP-OLAP Consolidation Strategy            :done, a1, 2026-03, 1M
@@ -895,7 +895,7 @@ gantt
     Resume & Job Search                         :milestone, a7, 2026-07, 1d
 
     section Future Work
-    PG Synapse ( PG 2.0 )                       :crit, a8, 2026-08, 1M
+    PG Synapse ( v2.0 )                         :crit, a8, 2026-08, 1M
 ```
 
 <br><br><br>
