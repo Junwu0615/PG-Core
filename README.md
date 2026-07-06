@@ -32,20 +32,20 @@
 | Define Event Story | - | 2026-03-21 |
 | Define Project Directory | - | 2026-03-21 |
 | Define Table DDL | - | 2026-03-21 |
-| Redefine Project Name | *OLTP-OLAP-Unified-DB to Platform Genesis* | 2026-05-08 |
-| Project Breakdown | `5` Major Categories | 2026-05-08 |
+| Redefine Project Name | _**OLTP-OLAP-Unified-DB** to **Platform Genesis**_ | 2026-05-08 |
+| Project Breakdown | _**5 Major Categories**_ | 2026-05-08 |
 | Architecture Diagram | [v1.0](./assets/png/Architecture-Diagram-v1.0.png) | 2026-05-16 |
 | Architecture Diagram | [v2.0](./assets/png/Architecture-Diagram-v2.0.png) | 2026-06-14 |
 | Architecture Diagram | [v2.1](./assets/png/Architecture-Diagram-v2.1.png) | 2026-06-22 |
 | Architecture Diagram | [v2.2](./assets/png/Architecture-Diagram-v2.2.png) | 2026-06-30 |
 | Architecture Diagram | [v3.0](./assets/png/Architecture-Diagram-v3.0.png) | 2026-07-04 |
 | Architecture Diagram | [v3.1](./assets/png/Architecture-Diagram-v3.1.png) | 2026-07-06 |
-| `PG-Analytics` | - | 2026-07-04 |
-| `PG-Core` `v1.0`  | Sprint `2026-03` to `2026-07` | 2026-07-XX |
-| `PG-Synapse` `v2.0` | Planning | *Future Work* |
-| `PG-Cortex` `v3.0` | Planning | *Future Work* |
-| `PG-Sentinel` `v4.0` | Planning | *Future Work* |
-| Pause | After `2026-07` | 2026-07-XX |
+| _**PG-Analytics**_ | - | 2026-07-04 |
+| _**PG-Core v1.0**_  | _Sprint **2026-03** to **2026-07**_ | 2026-07-XX |
+| _**PG-Synapse v2.0**_ | Planning | _**Future Work**_ |
+| _**PG-Cortex v3.0_** | Planning | _**Future Work**_ |
+| _**PG-Sentinel v4.0**_ | Planning | _**Future Work**_ |
+| _**Pause**_ | _After **2026-07**_ | 2026-07-XX |
 
 </ul>
 </details>
@@ -871,7 +871,7 @@ gantt
     dateFormat YYYY-MM
 
     section Current Work
-    Platform Genesis Core ( PG 1.0 )            :crit, a0, 2026-03, 5M
+    PG Core ( PG 1.0 )                          :crit, a0, 2026-03, 5M
     
     section Phase 1
     OLTP-OLAP Consolidation Strategy            :done, a1, 2026-03, 1M
@@ -895,7 +895,7 @@ gantt
     Resume & Job Search                         :milestone, a7, 2026-07, 1d
 
     section Future Work
-    Platform Genesis Synapse ( PG 2.0 )         :crit, a8, 2026-08, 1M
+    PG Synapse ( PG 2.0 )                       :crit, a8, 2026-08, 1M
 ```
 
 <br><br><br>
