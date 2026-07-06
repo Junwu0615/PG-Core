@@ -34,12 +34,12 @@
 | Define Table DDL | - | 2026-03-21 |
 | Redefine Project Name | _**OLTP-OLAP-Unified-DB** to **Platform Genesis**_ | 2026-05-08 |
 | Project Breakdown | _**5 Major Categories**_ | 2026-05-08 |
-| Architecture Diagram | [v1.0](./assets/png/Architecture-Diagram-v1.0.png) | 2026-05-16 |
-| Architecture Diagram | [v2.0](./assets/png/Architecture-Diagram-v2.0.png) | 2026-06-14 |
-| Architecture Diagram | [v2.1](./assets/png/Architecture-Diagram-v2.1.png) | 2026-06-22 |
-| Architecture Diagram | [v2.2](./assets/png/Architecture-Diagram-v2.2.png) | 2026-06-30 |
-| Architecture Diagram | [v3.0](./assets/png/Architecture-Diagram-v3.0.png) | 2026-07-04 |
-| Architecture Diagram | [v3.1](./assets/png/Architecture-Diagram-v3.1.png) | 2026-07-06 |
+| _**[Architecture Diagram v1.0](./assets/png/Architecture-Diagram-v1.0.png)**_ | - | 2026-05-16 |
+| _**[Architecture Diagram v2.0](./assets/png/Architecture-Diagram-v2.0.png)**_ | - | 2026-06-14 |
+| _**[Architecture Diagram v2.1](./assets/png/Architecture-Diagram-v2.1.png)**_ | - | 2026-06-22 |
+| _**[Architecture Diagram v2.2](./assets/png/Architecture-Diagram-v2.2.png)**_ | - | 2026-06-30 |
+| _**[Architecture Diagram v3.0](./assets/png/Architecture-Diagram-v3.0.png)**_ | - | 2026-07-04 |
+| _**[Architecture Diagram v3.1](./assets/png/Architecture-Diagram-v3.1.png)**_ | - | 2026-07-06 |
 | _**PG-Analytics**_ | - | 2026-07-04 |
 | _**PG-Core v1.0**_  | _Sprint **2026-03** to **2026-07**_ | 2026-07-XX |
 | _**PG-Synapse v2.0**_ | Planning | _**Future Work**_ |
