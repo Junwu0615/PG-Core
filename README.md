@@ -3,11 +3,7 @@
 
 ## *⭐ Platform Genesis Core ( v1.0 ) ⭐*
 
-[//]: # (![PNG]&#40;./assets/png/roadmap_00.png&#41;)
-[//]: # (![PNG]&#40;./assets/png/roadmap_01.png&#41;)
-[//]: # (![PNG]&#40;./assets/png/roadmap_02.png&#41;)
-[//]: # (![PNG]&#40;./assets/png/roadmap_03.png&#41;)
-![PNG](./assets/png/roadmap_04.png)
+![PNG](./assets/png/Architecture-Diagram-v3.1.png)
 
 <br>
 
@@ -38,11 +34,12 @@
 | Define Table DDL | - | 2026-03-21 |
 | Redefine Project Name | *OLTP-OLAP-Unified-DB to Platform Genesis* | 2026-05-08 |
 | Project Breakdown | `5` Major Categories | 2026-05-08 |
-| Architecture Diagram | `v1.0` | 2026-05-16 |
-| Architecture Diagram | `v2.0` | 2026-06-14 |
-| Architecture Diagram | `v2.1` | 2026-06-22 |
-| Architecture Diagram | `v2.2` | 2026-06-30 |
-| Architecture Diagram | `v3.0` | 2026-07-04 |
+| Architecture Diagram | [v1.0](./assets/png/Architecture-Diagram-v1.0.png) | 2026-05-16 |
+| Architecture Diagram | [v2.0](./assets/png/Architecture-Diagram-v2.0.png) | 2026-06-14 |
+| Architecture Diagram | [v2.1](./assets/png/Architecture-Diagram-v2.1.png) | 2026-06-22 |
+| Architecture Diagram | [v2.2](./assets/png/Architecture-Diagram-v2.2.png) | 2026-06-30 |
+| Architecture Diagram | [v3.0](./assets/png/Architecture-Diagram-v3.0.png) | 2026-07-04 |
+| Architecture Diagram | [v3.1](./assets/png/Architecture-Diagram-v3.1.png) | 2026-07-06 |
 | `PG-Analytics` | - | 2026-07-04 |
 | `PG-Core` `v1.0`  | Sprint `2026-03` to `2026-07` | 2026-07-XX |
 | `PG-Synapse` `v2.0` | Planning | *Future Work* |
