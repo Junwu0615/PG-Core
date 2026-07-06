@@ -106,18 +106,18 @@
 | test `CI` | common tests scripts | 2026-05-18 |
 | build `CI` | - | 2026-05-19 |
 | deploy `CD` | - | 2026-05-20 |
-| Python-Tempo Logic | `observational_simulation` | 2026-07-05 |
-| Grafana Dashboard | `templates/grafana/observability.json` | 2026-07-05 |
-| DAG | `init.py` + `create_topic.py` | `PG-Synapse` `v2.0` |
-| `TDD` | *Test-Driven Development*<br>測試驅動開發 `Pytest` `Mocking` | `PG-Synapse` `v2.0` |
-| `DTT` | *Decision Table Testing*<br>判定表測試 `Integration Testing` | `PG-Synapse` `v2.0` |
-| `TBD` | *Trunk-Based Development*<br>主幹開發模式 `Feature Flags` | `PG-Synapse` `v2.0` |
-| `BDD` | *Behavior-Driven Development*<br>行為驅動開發 | `PG-Synapse` `v2.0` |
-| `shared` logging | 日誌渲染更新 `rich` | `PG-Synapse` `v2.0` |
-| `shared` packages | 腳本頂部路徑初始化封裝 | `PG-Synapse` `v2.0` |
-| Create MV | Materialized View | `PG-Synapse` `v2.0` |
-| Analytical Queries | - | `PG-Synapse` `v2.0` |
-| Grafana Dashboard | `templates/grafana/htap.json` | `PG-Synapse` `v2.0` |
+| Python-Tempo Logic | `observational_simulation` | 2026-07-06 |
+| Grafana Dashboard | `templates/grafana/observability.json` | 2026-07-06 |
+| DAG | `init.py` + `create_topic.py` | _**PG-Synapse v2.0**_ |
+| `TDD` | *Test-Driven Development*<br>測試驅動開發 `Pytest` `Mocking` | _**PG-Synapse v2.0**_ |
+| `DTT` | *Decision Table Testing*<br>判定表測試 `Integration Testing` | _**PG-Synapse v2.0**_ |
+| `TBD` | *Trunk-Based Development*<br>主幹開發模式 `Feature Flags` | _**PG-Synapse v2.0**_ |
+| `BDD` | *Behavior-Driven Development*<br>行為驅動開發 | _**PG-Synapse v2.0**_ |
+| `shared` logging | 日誌渲染更新 `rich` | _**PG-Synapse v2.0**_ |
+| `shared` packages | 腳本頂部路徑初始化封裝 | _**PG-Synapse v2.0**_ |
+| Create MV | Materialized View | _**PG-Synapse v2.0**_ |
+| Analytical Queries | - | _**PG-Synapse v2.0**_ |
+| Grafana Dashboard | `templates/grafana/htap.json` | _**PG-Synapse v2.0**_ |
 | Security Message :<br>`Message Queue Layer` | Encryption ( `kafka` + `mqtt` ) | `TBD` |
 | Security Message :<br>`Software Layer` | Asymmetric encryption | `TBD` |
 
@@ -167,12 +167,12 @@
 | VM | Ansible `Restructuring`  | 2026-06-21 |
 | VM | 預載資源避免 Ansible 卡死外網索取資源 | 2026-06-21 |
 | Add `HashiCorp Vault` | Enterprise Key Management System | `202607` |
-| Add `Debezium` | Change Data Capture | `PG-Synapse` `v2.0` |
-| Add `Apache Iceberg` | Data Lake | `PG-Synapse` `v2.0` |
-| Add `Apache Flink` | Consumer of CDC | `PG-Synapse` `v2.0` |
-| Add `MinIO` | Object Storage | `PG-Synapse` `v2.0` |
-| Build `Lakehouse` | - | `PG-Synapse` `v2.0` |
-| Add `Superset` | for `OLAP` | `PG-Synapse` `v2.0` |
+| Add `Debezium` | Change Data Capture | _**PG-Synapse v2.0**_ |
+| Add `Apache Iceberg` | Data Lake | _**PG-Synapse v2.0**_ |
+| Add `Apache Flink` | Consumer of CDC | _**PG-Synapse v2.0**_ |
+| Add `MinIO` | Object Storage | _**PG-Synapse v2.0**_ |
+| Build `Lakehouse` | - | _**PG-Synapse v2.0**_ |
+| Add `Superset` | for `OLAP` | _**PG-Synapse v2.0**_ |
 | Kubernetes | Bottom Layer : `Kubeadm` + `VMware` | `TBD` |
 | Kubernetes | Public Cloud : `GKE` | `TBD` |
 
@@ -256,10 +256,10 @@
 |--:|:--|:--:|
 | DB Role-Based<br>Access Control | [PED-1](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/DB-RBAC.md)　➔　`RBAC` `IAM` `Least Privilege`<br>How can database access be governed securely across<br>teams and environments ? | 2026-04-01 |
 | Database<br>Environment Benchmark | [PED-2](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Database-Environment-Benchmark.md)　➔　`Docker Desktop` `WSL2` `Windows` `Linux`<br>How does the runtime environment impact database<br>performance and resource efficiency ? | 2026-04-04 |
-| OLTP-OLAP<br>Consolidation Strategy | [PED-3](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/OLTP-OLAP-Consolidation-Strategy.md)　➔　`HTAP` `CDC` `Schema Sync`<br>How can analytical workloads be consolidated<br>while minimizing infrastructure cost ? | `PG-Synapse` `v2.0` |
-| Database Query<br>Performance Optimization | [PED-4](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Database-Query-Performance-Optimization.md)　➔　`Execution Plan` `Index Strategy` `Latency`<br>How much performance improvement can be<br>achieved through query optimization ? | `PG-Synapse` `v2.0` |
-| Evolution of Core<br>Data Architecture | [PED-5](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Evolution-of-Core-Data-Architecture.md)　➔　`Decoupling` `Scalability` `Consistency`<br>How should data access architecture evolve as<br>business scale and complexity increase ?<br><br>•　Direct Read, MV, and CDC evolution strategies. | `PG-Synapse` `v2.0` |
-| Application Workload<br>Performance Analysis | [PED-6](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Application-Workload-Performance-Analysis.md)　➔　`Resource Quota` `Throughput` `Saturation`<br>How can observability data reveal performance<br>bottlenecks and capacity limits ? | `PG-Synapse` `v2.0` |
+| OLTP-OLAP<br>Consolidation Strategy | [PED-3](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/OLTP-OLAP-Consolidation-Strategy.md)　➔　`HTAP` `CDC` `Schema Sync`<br>How can analytical workloads be consolidated<br>while minimizing infrastructure cost ? | _**PG-Synapse v2.0**_ |
+| Database Query<br>Performance Optimization | [PED-4](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Database-Query-Performance-Optimization.md)　➔　`Execution Plan` `Index Strategy` `Latency`<br>How much performance improvement can be<br>achieved through query optimization ? | _**PG-Synapse v2.0**_ |
+| Evolution of Core<br>Data Architecture | [PED-5](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Evolution-of-Core-Data-Architecture.md)　➔　`Decoupling` `Scalability` `Consistency`<br>How should data access architecture evolve as<br>business scale and complexity increase ?<br><br>•　Direct Read, MV, and CDC evolution strategies. | _**PG-Synapse v2.0**_ |
+| Application Workload<br>Performance Analysis | [PED-6](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Application-Workload-Performance-Analysis.md)　➔　`Resource Quota` `Throughput` `Saturation`<br>How can observability data reveal performance<br>bottlenecks and capacity limits ? | _**PG-Synapse v2.0**_ |
 | Deployment<br>Delivery Baseline | [PED-7](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Deployment-Delivery-Baseline.md)　➔　`GitOps` `App-of-Apps` `Idempotency`<br>How does GitOps improve deployment efficiency and<br>operational consistency ? | 2026-06-13 |
 | Kubernetes Resiliency<br>& Availability Validation | [PED-8](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/K8s-Resiliency-Availability-Validation.md)　➔　`Fault Injection` `Control-Plane`<br>`Self-Healing`<br>How resilient is Kubernetes under node, workload,<br>network, and control-plane failures ? | 2026-06-16 |
 | Observability<br>Platform Validation | [PED-9](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Observability-Platform-Validation.md)　➔　`Logging` `Metrics` `Tracing` `Alert Manager`<br>How can metrics, logs, traces, and alerts accelerate<br>operational visibility and troubleshooting ?<br><br>•　Accelerating operational visibility and troubleshooting. | `202607` |
