@@ -242,6 +242,7 @@
 | GitOps | `無限套娃動態死鎖` | 2026-06-15 |
 | Kubernetes | Master Control Plane<br>`dqlite ( Distributed SQLite / Raft 共識協定 )` | 2026-06-16 |
 | Kubernetes + VM | Master Control Plane<br>`控制面組件租約選舉 ( Lease Re-election )` | 2026-06-17 |
+| Observability | Loki + Tempo ( Derived fields: Regex )<br>`超連結格式解析坑` ➔ 用 `Link` 直接組成 | 2026-07-10 |
 | GitOps | Build : `Security` `Vault` | `202607` |
 | GitOps | Maintain 2 repo ( `CI` + `CD` ) | `TBD` |
 
