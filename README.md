@@ -119,8 +119,8 @@
 | Create MV | Materialized View | _**PG-Synapse v2.0**_ |
 | Analytical Queries | - | _**PG-Synapse v2.0**_ |
 | Grafana Dashboard | `templates/grafana/htap.json` | _**PG-Synapse v2.0**_ |
-| Security Message :<br>`Message Queue Layer` | Encryption ( `kafka` + `mqtt` ) | `TBD` |
-| Security Message :<br>`Software Layer` | Asymmetric encryption | `TBD` |
+| Security Message |  _Message Queue Layer_<br>Encryption ( `kafka` + `mqtt` ) | `TBD` |
+| Security Message |  _Software Layer_<br>Asymmetric encryption | `TBD` |
 
 </ul>
 </details>
