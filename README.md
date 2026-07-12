@@ -107,8 +107,8 @@
 | test `CI` | common tests scripts | 2026-05-18 |
 | build `CI` | - | 2026-05-19 |
 | deploy `CD` | - | 2026-05-20 |
-| Python-Tempo Logic | `observational_simulation` | 2026-07-06 |
-| Grafana Dashboard | `templates/grafana/observability.json` | 2026-07-06 |
+| Python-Tempo Logic | `observational_simulation` | 2026-07-10 |
+| Grafana Dashboard | `templates/grafana/observability.json` | 2026-07-10 |
 | DAG | `init.py` + `create_topic.py` | _**PG-Synapse v2.0**_ |
 | `TDD` | *Test-Driven Development*<br>測試驅動開發 `Pytest` `Mocking` | _**PG-Synapse v2.0**_ |
 | `DTT` | *Decision Table Testing*<br>判定表測試 `Integration Testing` | _**PG-Synapse v2.0**_ |
@@ -151,7 +151,7 @@
 | VM | Terraform 安裝基礎設施 | 2026-05-11 |
 | VM | 橫向擴展 Node | 2026-05-12 |
 | Add `Monitoring` | `Loki` | 2026-05-12 |
-| Add `Gitlab` | for `CI` & `Manage Projects` | 2026-05-12 |
+| Add `GitLab` | for `CI` & `Manage Projects` | 2026-05-12 |
 | Add `Jenkins` | for `CD` | 2026-05-12 |
 | Add `Docker Registry` | for `CI/CD` & `Manage Images` | 2026-05-12 |
 | Build `Hierarchical`<br>`Log Management` | `Loki` + `ELK` | 2026-05-14 |
@@ -243,6 +243,7 @@
 | Kubernetes | Master Control Plane<br>`dqlite ( Distributed SQLite / Raft 共識協定 )` | 2026-06-16 |
 | Kubernetes + VM | Master Control Plane<br>`控制面組件租約選舉 ( Lease Re-election )` | 2026-06-17 |
 | Observability | Loki + Tempo ( Derived fields: Regex )<br>`超連結格式解析坑` ➔ 用 `Link` 直接組成 | 2026-07-10 |
+| Observability | Grafana Alerting 渲染格式坑<br>➔ 用 `硬編碼` 直接組成 | 2026-07-10 |
 | GitOps | Build : `Security` `Vault` | `202607` |
 | GitOps | Maintain 2 repo ( `CI` + `CD` ) | `TBD` |
 
@@ -858,7 +859,7 @@ tree -I 'venv|.git|__pycache__|docs|logs|assets|kafka_data|charts'
 |*Monitoring* | ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white) ![Tempo](https://img.shields.io/badge/Tempo-F46800?style=flat-square&logo=grafana&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) |
 |*Log Management*| ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![Logstash](https://img.shields.io/badge/Logstash-005571?style=flat-square&logo=logstash&logoColor=white) ![Kibana](https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white) |
 |*Cloud & Infra*| ![GKE](https://img.shields.io/badge/GKE-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
-|*DevOps & Security* | ![Gitlab](https://img.shields.io/badge/Gitlab-FC6D26?style=flat-square&logo=gitlab&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=Argo&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) ![Docker Registry](https://img.shields.io/badge/Docker_Registry-2496ED?style=flat-square&logo=docker&logoColor=white) ![Vault](https://img.shields.io/badge/HashiCorp_Vault-6070E1?style=flat-square&logo=hashicorp&logoColor=white) ![Portainer](https://img.shields.io/badge/Portainer-13BEFF?style=flat-square&logo=portainer&logoColor=white) |
+|*DevOps & Security* | ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=Argo&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) ![Docker Registry](https://img.shields.io/badge/Docker_Registry-2496ED?style=flat-square&logo=docker&logoColor=white) ![Vault](https://img.shields.io/badge/HashiCorp_Vault-6070E1?style=flat-square&logo=hashicorp&logoColor=white) ![Portainer](https://img.shields.io/badge/Portainer-13BEFF?style=flat-square&logo=portainer&logoColor=white) |
 |*Other*| ![Debian](https://img.shields.io/badge/Debian-gray?style=flat-square&logo=debian&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E9433F?style=flat-square&logo=ubuntu&logoColor=white) ![WSL2](https://img.shields.io/badge/WSL2-0078D4?style=flat-square&logo=windows&logoColor=white) ![Windows 11](https://img.shields.io/badge/Windows_11-0078D4?style=flat-square&logo=windows-11&logoColor=white) |
 
 </div>
