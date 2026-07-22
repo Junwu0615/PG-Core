@@ -169,7 +169,7 @@
 | VM | Ansible `Keepalived`<br>`VRRP 虛擬 IP ( VIP: 10.88.0.99 )` | 2026-06-16 |
 | VM | Ansible `Restructuring`  | 2026-06-21 |
 | VM | 預載資源避免 Ansible 卡死外網索取資源 | 2026-06-21 |
-| Add `HashiCorp Vault` | Enterprise Key Management System | `202607` |
+| Add `HashiCorp Vault` | Enterprise Key Management System | 2026-07-22 |
 | Add `Debezium` | Change Data Capture | _**PG-Synapse v2.0**_ |
 | Add `Apache Iceberg` | Data Lake | _**PG-Synapse v2.0**_ |
 | Add `Apache Flink` | Consumer of CDC | _**PG-Synapse v2.0**_ |
@@ -246,7 +246,7 @@
 | Kubernetes + VM | Master Control Plane<br>`控制面組件租約選舉 ( Lease Re-election )` | 2026-06-17 |
 | Observability | Loki + Tempo ( Derived fields: Regex )<br>`超連結格式解析坑` ➔ 用 `Link` 直接組成 | 2026-07-10 |
 | Observability | Grafana Alerting 渲染格式坑<br>➔ 用 `硬編碼` 直接組成 | 2026-07-10 |
-| GitOps | Build : `Security` `Vault` | `202607` |
+| GitOps | Build : `Security` `Vault` | 2026-07-22 |
 | GitOps | Maintain 2 repo ( `CI` + `CD` ) | `TBD` |
 
 </ul>
@@ -268,7 +268,7 @@
 | _Deployment<br>Delivery Baseline_ | _**[PED-7](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Deployment-Delivery-Baseline.md)**_　➔　`GitOps` `App-of-Apps` `Idempotency`<br>_How does GitOps improve deployment efficiency and<br>operational consistency ?_ | 2026-06-13 |
 | _Kubernetes Resiliency<br>& Availability Validation_ | _**[PED-8](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/K8s-Resiliency-Availability-Validation.md)**_　➔　`Fault Injection` `Control-Plane`<br>`Self-Healing`<br>_How resilient is Kubernetes under node, workload,<br>network, and control-plane failures ?_ | 2026-06-16 |
 | _Observability<br>Platform Validation_ | _**[PED-9](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Observability-Platform-Validation.md)**_　➔　`Logging` `Metrics` `Tracing` `Alert Manager`<br>_How can metrics, logs, traces, and alerts accelerate<br>operational visibility and troubleshooting ?<br><br>•　Accelerating operational visibility and troubleshooting._ | 2026-07-21 |
-| _Vault Secret Management<br>& Distribution_ | _**[PED-10](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Vault-Secret-Management-Distribution.md)**_　➔　`Dynamic Secret` `Encryption` `Zero Trust`<br>_How can secrets be managed, distributed, and rotated<br>securely across Kubernetes workloads ?_ | `202607` |
+| _Vault Secret Management<br>& Distribution_ | _**[PED-10](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Vault-Secret-Management-Distribution.md)**_　➔　`Dynamic Secret` `Encryption` `Zero Trust`<br>_How can secrets be managed, distributed, and rotated<br>securely across Kubernetes workloads ?_ | 2026-07-23 |
 | _End-to-End<br>DevOps Operating Model_ | _**[PED-11](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/End-to-End-DevOps-Operating-Model.md)**_　➔　`PR` `Code Review` `TEST` `STAGE` `PROD`<br>_How can development, delivery, operations, and recovery<br>be integrated into a unified platform workflow ?_ | 2026-06-17 |
 | _GitOps Deployment<br>Governance Validation_  | _**[PED-12](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/GitOps-Deployment-Governance-Validation.md)**_　➔　`Drift Detection` `Policy-as-Code`<br>`Traceability`<br>_How can GitOps enforce deployment governance,<br>drift control, and operational traceability ?<br><br>•　Enforcing governance and operational traceability._ | 2026-06-21 |
 
