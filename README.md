@@ -3,7 +3,7 @@
 
 ## *⭐ Platform Genesis Core ( v1.0 ) ⭐*
 
-![PNG](./assets/png/Architecture-Diagram-v4.0.png)
+![PNG](./assets/png/Architecture-Diagram-v4.1.png)
 
 <br>
 
@@ -43,6 +43,7 @@
 | _**[Architecture Diagram v3.1](./assets/png/Architecture-Diagram-v3.1.png)**_ | - | 2026-07-06 |
 | _**[Architecture Diagram v3.2](./assets/png/Architecture-Diagram-v3.2.png)**_ | - | 2026-07-10 |
 | _**[Architecture Diagram v4.0](./assets/png/Architecture-Diagram-v4.0.png)**_ | - | 2026-07-21 |
+| _**[Architecture Diagram v4.1](./assets/png/Architecture-Diagram-v4.1.png)**_ | - | 2026-07-22 |
 | _**PG-Core v1.0**_  | _Sprint **2026-03** to **2026-07**_ | 2026-07-XX |
 | _**Pause**_ | _After **2026-07**_ | 2026-07-XX |
 | _**PG-Synapse v2.0**_ | _**Planning**_ | _**Future Work**_ |
