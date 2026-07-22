@@ -44,8 +44,8 @@
 | _**[Architecture Diagram v3.2](./assets/png/Architecture-Diagram-v3.2.png)**_ | - | 2026-07-10 |
 | _**[Architecture Diagram v4.0](./assets/png/Architecture-Diagram-v4.0.png)**_ | - | 2026-07-21 |
 | _**[Architecture Diagram v4.1](./assets/png/Architecture-Diagram-v4.1.png)**_ | - | 2026-07-22 |
-| _**PG-Core v1.0**_  | _Sprint **2026-03** to **2026-07**_ | 2026-07-XX |
-| _**Pause**_ | _After **2026-07**_ | 2026-07-XX |
+| _**PG-Core v1.0**_  | _Sprint **2026-03** to **2026-07**_ | 2026-07-23 |
+| _**Pause**_ | _After **2026-07**_ | 2026-07-23 |
 | _**PG-Synapse v2.0**_ | _**Planning**_ | _**Future Work**_ |
 | _**PG-Cortex v3.0**_ | _**Planning**_ | _**Future Work**_ |
 | _**PG-Sentinel v4.0**_ | _**Planning**_ | _**Future Work**_ |
@@ -374,9 +374,7 @@
 
 <br>
 
-[//]: # (> &#40; Mar 2026 – Jul 2026 &#41;)
-> ##### *Platform Engineering Learning Sprint ( Mar 2026 – Present )*
-
+> ##### *Platform Engineering Learning Sprint ( Mar 2026 – Jul 2026 )*
 ```mermaid
 gantt
     dateFormat YYYY-MM
