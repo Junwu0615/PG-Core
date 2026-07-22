@@ -11,11 +11,11 @@
 |*Project Name*|*Responsibilities*|*Tech Stack*|
 |:--|:--|:--|
 | [_**Platform Genesis**_](https://github.com/Junwu0615/Platform-Genesis) | _**Homepage :**<br>Construction Records & Quantitative Testing_ | - |
-| [_**PG-Infrastructure**_](https://github.com/Junwu0615/PG-Infrastructure) | _**IaC & Automation :**<br>Orchestrates environment lifecycles via<br>Terraform, Ansible, and Makefiles._ | `GKE` `Kubernetes` `Docker`<br>`Terraform` `Ansible` `Makefile` |
-| [_**PG-APP-Core**_](https://github.com/Junwu0615/PG-APP-Core) | _**Business & Stream Logic :**<br>Core engine for multi-version factory simulations,<br>stream processing, and data infrastructure optimization._ | `PG-Shared-Lib` `Python` |
-| [_**PG-Shared-Lib**_](https://github.com/Junwu0615/PG-Shared-Lib) | _**Core Library :**<br>Provides standardized,<br>high-reusability modules across the ecosystem._ | `EntryPoint`<br>`Logger` `MqttServer`<br>`KafkaConsumerManager`<br>`KafkaProducerManager` |
-| [_**PG-Edge-Container**_](https://github.com/Junwu0615/PG-Edge-Container) | _**Edge Deployment :**<br>Lightweight IoT units for data acquisition<br>and real-time MQTT/SQLite HA processing._ | `PG-APP-Core` `MQTT` `SQLite` |
-| [_**PG-Airflow-DAGs**_](https://github.com/Junwu0615/PG-Airflow-DAGs) | _**Data Orchestration :**<br>Manages ETL pipelines, data lineage,<br>and OLTP-to-OLAP transformations._ | `Airflow` `DAGs` |
+| [_**PG - Infrastructure**_](https://github.com/Junwu0615/PG-Infrastructure) | _**IaC & Automation :**<br>Orchestrates environment lifecycles via<br>Terraform, Ansible, and Makefiles._ | `GKE` `Kubernetes` `Docker`<br>`Terraform` `Ansible` `Makefile` |
+| [_**PG - APP-Core**_](https://github.com/Junwu0615/PG-APP-Core) | _**Business & Stream Logic :**<br>Core engine for multi-version factory simulations,<br>stream processing, and data infrastructure optimization._ | `PG-Shared-Lib` `Python` |
+| [_**PG - Shared-Lib**_](https://github.com/Junwu0615/PG-Shared-Lib) | _**Core Library :**<br>Provides standardized,<br>high-reusability modules across the ecosystem._ | `EntryPoint`<br>`Logger` `MqttServer`<br>`KafkaConsumerManager`<br>`KafkaProducerManager` |
+| [_**PG - Edge-Container**_](https://github.com/Junwu0615/PG-Edge-Container) | _**Edge Deployment :**<br>Lightweight IoT units for data acquisition<br>and real-time MQTT/SQLite HA processing._ | `PG-APP-Core` `MQTT` `SQLite` |
+| [_**PG - Airflow-DAGs**_](https://github.com/Junwu0615/PG-Airflow-DAGs) | _**Data Orchestration :**<br>Manages ETL pipelines, data lineage,<br>and OLTP-to-OLAP transformations._ | `Airflow` `DAGs` |
 
 <br><br>
 
