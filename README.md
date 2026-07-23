@@ -1,11 +1,10 @@
 <a href='https://github.com/Junwu0615/Platform Genesis'><img alt='GitHub Views' src='https://views.whatilearened.today/views/github/Junwu0615/Platform Genesis.svg'>
 [![Back to HomePage](https://img.shields.io/badge/%F0%9F%8C%90_Back_to-HomePage-blue?style=flat-square)](https://github.com/Junwu0615/Platform-Genesis)
 
-## *⭐ Platform Genesis Core ( v1.0 ) ⭐*
+## *⭐ Platform Genesis Core ( v1.0.0 ) ⭐*
 
-[//]: # (![PNG]&#40;./assets/png/Architecture-Diagram-v4.1.png&#41;)
 <p align="center">
-  <img src="./assets/svg/Architecture-Diagram-v4.1.svg" style="background-color: #ffffff; padding: 1px; border-radius: 4px;" />
+  <img src="./assets/svg/Architecture-Diagram-v4.2.svg" style="background-color: #ffffff; padding: 1px; border-radius: 4px;" />
 </p>
 
 <br>
@@ -47,11 +46,12 @@
 | _**[Architecture Diagram v3.2](./assets/png/Architecture-Diagram-v3.2.png)**_ | - | 2026-07-10 |
 | _**[Architecture Diagram v4.0](./assets/png/Architecture-Diagram-v4.0.png)**_ | - | 2026-07-21 |
 | _**[Architecture Diagram v4.1](./assets/png/Architecture-Diagram-v4.1.png)**_ | - | 2026-07-22 |
-| _**PG-Core v1.0**_  | _Sprint **2026-03** to **2026-07**_ | 2026-07-23 |
-| _**Pause**_ | _After **2026-07**_ | 2026-07-23 |
-| _**PG-Synapse v2.0**_ | _**Planning**_ | _**Future Work**_ |
-| _**PG-Cortex v3.0**_ | _**Planning**_ | _**Future Work**_ |
-| _**PG-Sentinel v4.0**_ | _**Planning**_ | _**Future Work**_ |
+| _**[Architecture Diagram v4.2](./assets/png/Architecture-Diagram-v4.2.png)**_ | - | 2026-07-24 |
+| _**PG-Core v1.0.0**_  | _Sprint **2026-03** to **2026-07**_ | 2026-07-24 |
+| _**Pause**_ | _After **2026-07**_ | 2026-07-24 |
+| _**PG-Synapse v2.0.0**_ | _**Planning**_ | _**Future Work**_ |
+| _**PG-Cortex v3.0.0**_ | _**Planning**_ | _**Future Work**_ |
+| _**PG-Sentinel v4.0.0**_ | _**Planning**_ | _**Future Work**_ |
 
 </ul>
 </details>
@@ -114,16 +114,16 @@
 | deploy `CD` | - | 2026-05-20 |
 | Python-Tempo Logic | `observational_simulation` | 2026-07-10 |
 | Grafana Dashboard | `templates/grafana/observability.json` | 2026-07-10 |
-| DAG | `init.py` + `create_topic.py` | _**PG-Synapse v2.0**_ |
-| `TDD` | *Test-Driven Development*<br>測試驅動開發 `Pytest` `Mocking` | _**PG-Synapse v2.0**_ |
-| `DTT` | *Decision Table Testing*<br>判定表測試 `Integration Testing` | _**PG-Synapse v2.0**_ |
-| `TBD` | *Trunk-Based Development*<br>主幹開發模式 `Feature Flags` | _**PG-Synapse v2.0**_ |
-| `BDD` | *Behavior-Driven Development*<br>行為驅動開發 | _**PG-Synapse v2.0**_ |
-| `shared` logging | 日誌渲染更新 `rich` | _**PG-Synapse v2.0**_ |
-| `shared` packages | 腳本頂部路徑初始化封裝 | _**PG-Synapse v2.0**_ |
-| Create MV | Materialized View | _**PG-Synapse v2.0**_ |
-| Analytical Queries | - | _**PG-Synapse v2.0**_ |
-| Grafana Dashboard | `templates/grafana/htap.json` | _**PG-Synapse v2.0**_ |
+| DAG | `init.py` + `create_topic.py` | _**PG-Synapse v2.0.0**_ |
+| `TDD` | *Test-Driven Development*<br>測試驅動開發 `Pytest` `Mocking` | _**PG-Synapse v2.0.0**_ |
+| `DTT` | *Decision Table Testing*<br>判定表測試 `Integration Testing` | _**PG-Synapse v2.0.0**_ |
+| `TBD` | *Trunk-Based Development*<br>主幹開發模式 `Feature Flags` | _**PG-Synapse v2.0.0**_ |
+| `BDD` | *Behavior-Driven Development*<br>行為驅動開發 | _**PG-Synapse v2.0.0**_ |
+| `shared` logging | 日誌渲染更新 `rich` | _**PG-Synapse v2.0.0**_ |
+| `shared` packages | 腳本頂部路徑初始化封裝 | _**PG-Synapse v2.0.0**_ |
+| Create MV | Materialized View | _**PG-Synapse v2.0.0**_ |
+| Analytical Queries | - | _**PG-Synapse v2.0.0**_ |
+| Grafana Dashboard | `templates/grafana/htap.json` | _**PG-Synapse v2.0.0**_ |
 | Security Message |  _Message Queue Layer_<br>Encryption ( `kafka` + `mqtt` ) | `TBD` |
 | Security Message |  _Software Layer_<br>Asymmetric encryption | `TBD` |
 
@@ -173,12 +173,12 @@
 | VM | Ansible `Restructuring`  | 2026-06-21 |
 | VM | 預載資源避免 Ansible 卡死外網索取資源 | 2026-06-21 |
 | Add `HashiCorp Vault` | Enterprise Key Management System | 2026-07-22 |
-| Add `Debezium` | Change Data Capture | _**PG-Synapse v2.0**_ |
-| Add `Apache Iceberg` | Data Lake | _**PG-Synapse v2.0**_ |
-| Add `Apache Flink` | Consumer of CDC | _**PG-Synapse v2.0**_ |
-| Add `MinIO` | Object Storage | _**PG-Synapse v2.0**_ |
-| Build `Lakehouse` | - | _**PG-Synapse v2.0**_ |
-| Add `Superset` | for `OLAP` | _**PG-Synapse v2.0**_ |
+| Add `Debezium` | Change Data Capture | _**PG-Synapse v2.0.0**_ |
+| Add `Apache Iceberg` | Data Lake | _**PG-Synapse v2.0.0**_ |
+| Add `Apache Flink` | Consumer of CDC | _**PG-Synapse v2.0.0**_ |
+| Add `MinIO` | Object Storage | _**PG-Synapse v2.0.0**_ |
+| Build `Lakehouse` | - | _**PG-Synapse v2.0.0**_ |
+| Add `Superset` | for `OLAP` | _**PG-Synapse v2.0.0**_ |
 | Kubernetes | Bottom Layer : `Kubeadm` + `VMware` | `TBD` |
 | Kubernetes | Public Cloud : `GKE` | `TBD` |
 
@@ -264,10 +264,10 @@
 |--:|:--|:--:|
 | _DB Role-Based<br>Access Control_ | _**[PED-01](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/DB-RBAC.md)**_　➔　`RBAC` `IAM` `Least Privilege`<br>_Q : How can database access be governed securely across<br>teams and environments ?<br><br>A : Enforcing least-privilege access and strict role segregation._ | 2026-04-01 |
 | _Database<br>Environment Benchmark_ | _**[PED-02](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Database-Environment-Benchmark.md)**_　➔　`Docker Desktop` `WSL2` `Windows` `Linux`<br>_Q : How does the runtime environment impact database<br>performance and resource efficiency ?<br><br>A : Quantifying OS overhead and I/O performance differentials._ | 2026-04-04 |
-| _OLTP-OLAP<br>Consolidation Strategy_ | _**[PED-03](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/OLTP-OLAP-Consolidation-Strategy.md)**_　➔　`HTAP` `CDC` `Schema Sync`<br>_Q : How can analytical workloads be consolidated<br>while minimizing infrastructure cost ?<br><br>A : Hybrid transactional and analytical architecture blueprint._ | _**PG-Synapse v2.0**_ |
-| _Database Query<br>Performance Optimization_ | _**[PED-04](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Database-Query-Performance-Optimization.md)**_　➔　`Execution Plan` `Index Strategy` `Latency`<br>_Q : How much performance improvement can be<br>achieved through query optimization ?<br><br>A : Execution plan tuning and targeted indexing strategies._ | _**PG-Synapse v2.0**_ |
-| _Evolution of Core<br>Data Architecture_ | _**[PED-05](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Evolution-of-Core-Data-Architecture.md)**_　➔　`Decoupling` `Scalability` `Consistency`<br>_Q : How should data access architecture evolve as<br>business scale and complexity increase ?<br><br>A : Direct Read, MV, and CDC evolution strategies._ | _**PG-Synapse v2.0**_ |
-| _Application Workload<br>Performance Analysis_ | _**[PED-06](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Application-Workload-Performance-Analysis.md)**_　➔　`Resource Quota` `Throughput` `Saturation`<br>_Q : How can observability data reveal performance<br>bottlenecks and capacity limits ?<br><br>A : Resource saturation analysis and quota tuning._ | _**PG-Synapse v2.0**_ |
+| _OLTP-OLAP<br>Consolidation Strategy_ | _**[PED-03](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/OLTP-OLAP-Consolidation-Strategy.md)**_　➔　`HTAP` `CDC` `Schema Sync`<br>_Q : How can analytical workloads be consolidated<br>while minimizing infrastructure cost ?<br><br>A : Hybrid transactional and analytical architecture blueprint._ | _**PG-Synapse v2.0.0**_ |
+| _Database Query<br>Performance Optimization_ | _**[PED-04](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Database-Query-Performance-Optimization.md)**_　➔　`Execution Plan` `Index Strategy` `Latency`<br>_Q : How much performance improvement can be<br>achieved through query optimization ?<br><br>A : Execution plan tuning and targeted indexing strategies._ | _**PG-Synapse v2.0.0**_ |
+| _Evolution of Core<br>Data Architecture_ | _**[PED-05](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Evolution-of-Core-Data-Architecture.md)**_　➔　`Decoupling` `Scalability` `Consistency`<br>_Q : How should data access architecture evolve as<br>business scale and complexity increase ?<br><br>A : Direct Read, MV, and CDC evolution strategies._ | _**PG-Synapse v2.0.0**_ |
+| _Application Workload<br>Performance Analysis_ | _**[PED-06](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Application-Workload-Performance-Analysis.md)**_　➔　`Resource Quota` `Throughput` `Saturation`<br>_Q : How can observability data reveal performance<br>bottlenecks and capacity limits ?<br><br>A : Resource saturation analysis and quota tuning._ | _**PG-Synapse v2.0.0**_ |
 | _Deployment<br>Delivery Baseline_ | _**[PED-07](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Deployment-Delivery-Baseline.md)**_　➔　`GitOps` `App-of-Apps` `Idempotency`<br>_Q : How does GitOps improve deployment efficiency<br>and operational consistency ?<br><br>A : Quantifying delivery time reduction<br>and operational scaling benefits through GitOps automation._ | 2026-06-13 |
 | _Kubernetes Resiliency<br>& Availability Validation_ | _**[PED-08](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/K8s-Resiliency-Availability-Validation.md)**_　➔　`Fault Injection` `Control-Plane`<br>`Self-Healing`<br>_Q : How resilient is Kubernetes under node, workload,<br>network, and control-plane failures ?<br><br>A : Quantifying self-healing behavior<br>and control-plane fault tolerance._ | 2026-06-16 |
 | _Observability<br>Platform Validation_ | _**[PED-09](https://github.com/Junwu0615/Platform-Genesis/blob/main/docs/Observability-Platform-Validation.md)**_　➔　`Logging` `Metrics` `Tracing` `Alert Manager`<br>_Q : How can metrics, logs, traces, and alerts accelerate<br>operational visibility and troubleshooting ?<br><br>A : Accelerating operational visibility and troubleshooting._ | 2026-07-21 |
@@ -383,7 +383,7 @@ gantt
     dateFormat YYYY-MM
 
     section Current Work
-    PG Core ( v1.0 )                            :crit, a0, 2026-03, 5M
+    PG Core ( v1.0.0 )                          :crit, a0, 2026-03, 5M
     
     section Phase 1
     OLTP-OLAP Consolidation Strategy            :done, a1, 2026-03, 1M
@@ -407,7 +407,7 @@ gantt
     Resume & Job Search                         :milestone, a7, 2026-07, 1d
 
     section Future Work
-    PG Synapse ( v2.0 )                         :crit, a8, 2026-08, 1M
+    PG Synapse ( v2.0.0 )                       :crit, a8, 2026-08, 1M
 ```
 
 <br><br><br>
